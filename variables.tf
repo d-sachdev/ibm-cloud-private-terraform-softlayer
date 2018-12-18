@@ -19,7 +19,7 @@ variable ssh_key_name {
 
 variable ssh_public_key {
   description = "SSH Public Key"
-  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCu4wgcPJySRMiZo7GKGrzpRy4otA/B4kj1CVMb1yWXGUeAGec29/giLtZBtGaYHkn24qCuVpGYjwIANjASOuyQErAEs2PeDzqu6ULnz4tNOe+jvMK+2zkTl/n2OIs0mwtGJDUNJzhduqg5/r9V5cfLXUFEX+ubHjS+hcJep2avNT0jrgFv77l9s3zydysK1dTr5clZMpHm0IZkCmZrL1P0gPLp3hU53vB1EiOLi0RFqdZEp6GNAxks+WuHbQP0FfPaBKNQFXA2i5Ks4TKovjcvalK36qbMNppE+tBI6dkL2ZZ8M+E9VT30ytCGnTBmGdb3LtpT7MPGYMKTufjL/0EW5EY/0Pdg7+KlkHe+RenJwnGYzGpUrhNDPTAxiHyuzg1YvLoqms3Te0WJrI7HUNYX6fvWBar6PPXQrw5GKWvgGFw+X3j7clle8g84HCupHfcGPhLdMvOdzCiEe+RYPuMSwmuPaAX4tJy3Iy/0FIWYJWnH5UZLPRd7ZzMnpdb++xckFMA4WxcGLLxRi0C1MTvv4aDnh1Xk8JrKzjIAIWvqyn0hIh6tXWOwvAyBgRlcwJpgDhjnhTeTefLCh2y2V2l+/J989DZtzE1NLb5ZtOasqjjyLt+4zhCW0roAIenVPumm4aer1jLS3L5gLKCILJ4RTcJIpU81KwWewFFAXfk79w== d_sachdev@us.ibm.com"
+  default     = ""
 }
 
 variable "ssh_user" {
@@ -29,7 +29,7 @@ variable "ssh_user" {
 
 variable datacenter {
   description = "Softlayer Data Center code"
-  default     = "dal06"
+  default     = "dal07"
 }
 
 variable "domain" {
