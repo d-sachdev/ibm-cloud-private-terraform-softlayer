@@ -1,4 +1,4 @@
-ibm_sl_username="1529491"
+ibm_sl_username="IBM1529491"
 ibm_sl_api_key="365b4b9f735b06f2dfb1a44db7c32465bf4f7b0f85d29714d0857887a6a2432e"
 datacenter = "dal07"                #use one of SoftLayer Datacenter code
 ssh_key_name = "ibmcloud"             #name of ssh key to be created in SoftLayer
