@@ -5,12 +5,12 @@ variable ibm_bmx_api_key {
 
 variable ibm_sl_username {
   description = "IBM Cloud Infrastructure Username"
-  default     = ""
+  default     = "IBM1529491"
 }
 
 variable ibm_sl_api_key {
   description = "IBM Cloud Infrastructure Password"
-  default     = ""
+  default     = "365b4b9f735b06f2dfb1a44db7c32465bf4f7b0f85d29714d0857887a6a2432e"
 }
 
 variable ssh_key_name {
@@ -19,7 +19,7 @@ variable ssh_key_name {
 
 variable ssh_public_key {
   description = "SSH Public Key"
-  default     = ""
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCu4wgcPJySRMiZo7GKGrzpRy4otA/B4kj1CVMb1yWXGUeAGec29/giLtZBtGaYHkn24qCuVpGYjwIANjASOuyQErAEs2PeDzqu6ULnz4tNOe+jvMK+2zkTl/n2OIs0mwtGJDUNJzhduqg5/r9V5cfLXUFEX+ubHjS+hcJep2avNT0jrgFv77l9s3zydysK1dTr5clZMpHm0IZkCmZrL1P0gPLp3hU53vB1EiOLi0RFqdZEp6GNAxks+WuHbQP0FfPaBKNQFXA2i5Ks4TKovjcvalK36qbMNppE+tBI6dkL2ZZ8M+E9VT30ytCGnTBmGdb3LtpT7MPGYMKTufjL/0EW5EY/0Pdg7+KlkHe+RenJwnGYzGpUrhNDPTAxiHyuzg1YvLoqms3Te0WJrI7HUNYX6fvWBar6PPXQrw5GKWvgGFw+X3j7clle8g84HCupHfcGPhLdMvOdzCiEe+RYPuMSwmuPaAX4tJy3Iy/0FIWYJWnH5UZLPRd7ZzMnpdb++xckFMA4WxcGLLxRi0C1MTvv4aDnh1Xk8JrKzjIAIWvqyn0hIh6tXWOwvAyBgRlcwJpgDhjnhTeTefLCh2y2V2l+/J989DZtzE1NLb5ZtOasqjjyLt+4zhCW0roAIenVPumm4aer1jLS3L5gLKCILJ4RTcJIpU81KwWewFFAXfk79w== d_sachdev@us.ibm.com"
 }
 
 variable "ssh_user" {
@@ -29,7 +29,7 @@ variable "ssh_user" {
 
 variable datacenter {
   description = "Softlayer Data Center code"
-  default     = "sgn01"
+  default     = "dal06"
 }
 
 variable "domain" {
@@ -45,7 +45,7 @@ variable "os_reference" {
 ##### ICP Instance details ######
 variable "icp_version" {
   description = "ICP Version"
-  default     = "2.1.0.3"
+  default     = "3.1.1"
 }
 
 variable "network_cidr" {
