@@ -1,16 +1,16 @@
 variable ibm_bmx_api_key {
   description = "Bluemix API Key"
-  default     = ""
+  default     = "Rr7u_rNaQ3GYx8jf2vIL2iNIjFjvrnqGimxXymXkvcb_"
 }
 
 variable ibm_sl_username {
   description = "IBM Cloud Infrastructure Username"
-  default     = ""
+  default     = "IBM1529491"
 }
 
 variable ibm_sl_api_key {
   description = "IBM Cloud Infrastructure Password"
-  default     = ""
+  default     = "365b4b9f735b06f2dfb1a44db7c32465bf4f7b0f85d29714d0857887a6a2432e"
 }
 
 variable ssh_key_name {
@@ -29,7 +29,7 @@ variable "ssh_user" {
 
 variable datacenter {
   description = "Softlayer Data Center code"
-  default     = "sgn01"
+  default     = "dal06"
 }
 
 variable "domain" {
@@ -45,7 +45,7 @@ variable "os_reference" {
 ##### ICP Instance details ######
 variable "icp_version" {
   description = "ICP Version"
-  default     = "2.1.0.3"
+  default     = "3.1.1"
 }
 
 variable "network_cidr" {
