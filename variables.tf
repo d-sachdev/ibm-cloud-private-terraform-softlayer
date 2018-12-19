@@ -29,7 +29,7 @@ variable "ssh_user" {
 
 variable datacenter {
   description = "Softlayer Data Center code"
-  default     = "dal07"
+  default     = "dal06"
 }
 
 variable "domain" {
