@@ -1,16 +1,16 @@
 variable ibm_bmx_api_key {
   description = "Bluemix API Key"
-  default     = "Rr7u_rNaQ3GYx8jf2vIL2iNIjFjvrnqGimxXymXkvcb_"
+  default     = ""
 }
 
 variable ibm_sl_username {
   description = "IBM Cloud Infrastructure Username"
-  default     = "IBM1529491"
+  default     = ""
 }
 
 variable ibm_sl_api_key {
   description = "IBM Cloud Infrastructure Password"
-  default     = "365b4b9f735b06f2dfb1a44db7c32465bf4f7b0f85d29714d0857887a6a2432e"
+  default     = ""
 }
 
 variable ssh_key_name {
