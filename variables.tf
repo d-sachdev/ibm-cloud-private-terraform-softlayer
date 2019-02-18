@@ -45,7 +45,7 @@ variable "os_reference" {
 ##### ICP Instance details ######
 variable "icp_version" {
   description = "ICP Version"
-  default     = "3.1.1"
+  default     = "3.1.2"
 }
 
 variable "network_cidr" {
